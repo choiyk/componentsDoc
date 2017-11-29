@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Badge</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="page-badges">
+
+  <ion-card>
+      <img src="assets/imgs/img1.jpg"/>
+  </ion-card>
+  <ion-card-content>
+    <ion-card-title>
+        카드 제목
+    </ion-card-title>
+    <p>
+        카드에 대한 내용이 들어가는 곳입니다.   
+    </p>
+</ion-card-content>
+<ion-item>
+    <ion-icon name='musical-notes' item-start class="musical"></ion-icon>
+    <!-- item-end: 오른쪽 배치 item-start: 왼쪽 배치-->
+    Albums
+    <ion-badge item-end>9</ion-badge>
+</ion-item>
+
+<ion-item>
+    <ion-icon name='logo-twitter' item-start class="twitter"></ion-icon>
+    Followers
+    <ion-badge item-end>260k</ion-badge>
+</ion-item>
+
+  
+</ion-content>

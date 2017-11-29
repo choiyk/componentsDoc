@@ -7,6 +7,10 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { ActionSheetPage } from '../pages/action-sheet/action-sheet';
 import { AlertPage } from '../pages/alert/alert';
+import { ButtonPage } from '../pages/button/button';
+import { BadgePage } from '../pages/badge/badge';
+import { CardPage } from '../pages/card/card';
+import { CheckboxPage } from '../pages/checkbox/checkbox';
 
 @Component({
   templateUrl: 'app.html'
@@ -26,7 +30,11 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
       { title: 'Action Sheet', component: ActionSheetPage },
-      { title: 'Alert', component: AlertPage }
+      { title: 'Alert', component: AlertPage },
+      { title: 'Button', component: ButtonPage },
+      { title: 'Badge', component: BadgePage },
+      { title: 'Card', component: CardPage },
+      { title: 'Checkbox', component: CheckboxPage }
     ];
 
   }
